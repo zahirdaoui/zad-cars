@@ -1,0 +1,33 @@
+.shose-cars{
+    padding: 20px;
+    background-color: rgba(9, 17, 17, 0.316);
+    &-select{
+        select{
+            width:30%;
+            margin: auto;
+        }
+    }
+    &-range{
+        padding-top: 25px;
+        label{
+            font-weight: 700;
+        }
+        .number-range{
+            float: right;
+            color: $color-black;
+        }
+    }
+    button{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 30px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+    }
+
+}
+.panination-item{
+    width: 70%;
+    margin-left: 30%;
+}

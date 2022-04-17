@@ -1,0 +1,91 @@
+/* start cars search */
+
+/* end cars search */
+     .cars-detais{
+         /*start title cars */
+                &-top{
+                    width: 70%;
+                    margin: auto;
+                    margin-top: 10px;
+                    div{
+                        border-bottom: 1px solid green;
+                        span{
+                            margin-top: 15px;
+                            font-weight: 900;
+                            font-size: 20px;
+                        }
+                       
+                    }
+                    ul{
+                        display: flex;
+                        border-bottom: 1px solid red;
+                        li{
+                            margin-left: 30px;
+                            border-right: 1px solid red;
+                            padding-right: 20px;
+                        }
+                    }
+                
+
+                }
+         /* end title cars */
+                &-car-img{
+                    margin: auto;
+                    .slider-content{
+                        &-img{
+                            margin-bottom: 60px!important;
+                            img{
+                                width: 80%;
+                                margin: auto;
+                            }
+                        }
+                    
+                    }
+               
+            }
+            &-car-info-g{
+                ul{
+                    margin-top: 25px;
+                    margin-left: 50px;
+                    li{
+                        margin-bottom: 10px;
+                    }
+                }
+                i{
+                    font-size: 30px;
+                    color: $main-color;
+                }
+                span{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+            &-car-desciption {
+            box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.618);
+                padding: 5px;
+                h1{
+                    font-weight: 900;
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+            .cars-detais-car-info-vnd{
+                margin-top: 10px;
+                h3{
+                    margin-bottom: 6px;
+                    font-weight: 800;
+                }
+                h1{
+                    width: 80%;
+                    padding: 3px;
+
+                }
+            }
+
+    }
+
+/* dddddd */
+     
